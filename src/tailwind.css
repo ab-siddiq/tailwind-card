@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* group utilities */
 @layer components {
+  /* group utilities */
   .btn{
-    @apply px-4 py-1 border focus:ring focus:ring-gray-300 focus:ring-offset-1 rounded-full text-sm
+    @apply px-4 py-1 border border-gray-500 focus:ring focus:ring-gray-900 focus:ring-offset-2 rounded-full text-sm tracking-wide
   }
   .btn-blue {
-    @apply  border-blue-200  text-blue-700 hover:bg-blue-600 hover:text-white ;
+    @apply   text-blue-300 hover:bg-blue-600 hover:text-white ;
   }
   .btn-green {
-    @apply  border-green-200 text-green-700 hover:bg-green-600 hover:text-white;
+    @apply   text-green-300 hover:bg-green-600 hover:text-white;
   }
 }
